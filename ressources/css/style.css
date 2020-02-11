@@ -81,7 +81,35 @@ header {
     align-items: center;
 }
 
+#europ .euro i {
+    perspective: 1000px;
+    font-size: 120%;
+    color: rgb(77, 100, 168);
+    animation: globe 3s linear infinite;
+}
+
+@keyframes globe {
+    0% {
+        transform: rotateZ(0deg);
+    }
+    50% {
+        transform: rotateZ(180deg);
+    }
+    100% {
+        transform: rotateZ(360deg);
+    }
+}
+
 #europ p {
     width: 600px;
     margin: 20px;
+}
+
+
+/* MOYEN-ORIENT */
+
+#orient .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
