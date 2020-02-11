@@ -111,5 +111,10 @@ header {
 #orient .container {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
+}
+
+#orient .container .desertroad {
+    height: 50vh;
+    width: 100%;
 }
