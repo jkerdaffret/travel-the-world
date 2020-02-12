@@ -12,7 +12,7 @@ html {
     height: 100vh;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
     text-align: center;
     font-family: 'Rubik', sans-serif;
     word-spacing: 10px;
@@ -37,6 +37,12 @@ h3 {
     font-size: 200%;
     font-weight: 500;
     color: #262626;
+}
+
+h4 {
+    font-size: 180%;
+    font-weight: 400;
+    color: #FFF;
 }
 
 p {
@@ -83,6 +89,7 @@ header {
 #europ img {
     margin-left: 50px;
     border-radius: 5px;
+    box-shadow: 3px 3px 10px #262626;
 }
 
 #europ .euro {
@@ -156,4 +163,124 @@ header {
     width: 300px;
     height: 300px;
     border-radius: 50%;
+    box-shadow: 3px 3px 10px #262626;
+}
+
+#orient .cartes .round-card p {
+    padding-top: 50px;
+    margin-left: 15px;
+}
+
+
+/* ASIE */
+
+#asia {
+    background: linear-gradient(rgba(255, 166, 0, 0.445), rgba(255, 255, 0, 0.432));
+}
+
+#asia .container-fluid {
+    width: 100%;
+    height: 100vh;
+}
+
+#asia .container-fluid .title {
+    width: 100%;
+    height: 20vh;
+}
+
+#asia .container-fluid .title h2 {
+    margin-top: 70px;
+}
+
+#asia .container-fluid .asie {
+    width: 100%;
+    height: 80vh;
+}
+
+#asia .container-fluid .cino img {
+    width: 60%;
+    height: 80%;
+    margin-left: 120px;
+    margin-top: 30px;
+    border-radius: 7px;
+    object-fit: fill;
+    box-shadow: 3px 3px 10px #262626;
+}
+
+#asia .container-fluid .cino h4 {
+    position: absolute;
+    top: 600px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+/* AFRIQUE */
+
+#africa  {
+    background: linear-gradient(rgba(8, 138, 8, 0.486), #26262679);
+}
+
+#africa .container-fluid {
+    width: 100%;
+    height: 100vh;
+}
+
+#africa .container-fluid .title {
+    width: 100%;
+    height: 20vh;
+}
+
+#africa .container-fluid .title h2 {
+    margin-top: 70px;
+}
+
+
+
+
+/* OCEANIE */
+
+#oceania .container-fluid {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(111, 163, 168, 0.548);
+}
+
+#oceania .container-fluid .whiteheaven {
+    width: 100%;
+    height: 40vh;
+}
+
+#oceania .container-fluid .title {
+    width: 100%;
+    height: 20vh;
+}
+
+#oceania .container-fluid .title h2 {
+    margin-top: 70px;
+}
+
+#oceania .cartes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#oceania .cartes .round-card {
+    display: flex;
+    width: 80%;
+    height: 80%;
+    margin-bottom: 80px;
+}
+
+#oceania .cartes .round-card img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 10px #262626;
+}
+
+#oceania .cartes .round-card p {
+    padding-top: 50px;
+    margin-left: 15px;
 }
