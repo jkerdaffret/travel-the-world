@@ -75,6 +75,11 @@ header {
     align-items: center;
 }
 
+#europ h2 {
+    margin-top: -20px;
+    margin-bottom: 50px;
+}
+
 #europ img {
     margin-left: 50px;
     border-radius: 5px;
@@ -117,18 +122,38 @@ header {
 #orient .container-fluid {
     width: 100%;
     height: 100vh;
+    background-color: rgba(229, 184, 145, 0.548);
 }
 
 #orient .container-fluid .desertroad {
     width: 100%;
-    height: 50vh;
+    height: 40vh;
 }
 
 #orient .container-fluid .title {
     width: 100%;
-    height: 50vh;
+    height: 20vh;
 }
 
 #orient .container-fluid .title h2 {
-    margin-top: 55px;
+    margin-top: 70px;
+}
+
+#orient .cartes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#orient .cartes .round-card {
+    display: flex;
+    width: 80%;
+    height: 80%;
+    margin-bottom: 80px;
+}
+
+#orient .cartes .round-card img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
 }
