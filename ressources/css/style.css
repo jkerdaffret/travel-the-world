@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    scroll-behavior: smooth;
+    /* scroll-behavior: smooth; */
 }
 
 html {
@@ -120,8 +120,9 @@ header {
 }
 
 #europ p {
-    width: 600px;
+    max-width: 600px;
     margin: 20px;
+    overflow: hidden;
 }
 
 
@@ -157,10 +158,11 @@ header {
     padding: 15px;
     border-radius: 10px;
     display: flex;
-    width: 680px;
-    height: 400px;
+    max-width: 680px;
+    max-height: 400px;
     margin-bottom: 80px;
     box-shadow: 3px 3px 10px #262626;
+    overflow: hidden;
 }
 
 #orient .cartes .round-card h3 {
@@ -194,7 +196,7 @@ header {
 
 #asia .container-fluid .title {
     width: 100%;
-    height: 20%;
+    max-height: 20%;
 }
 
 #asia .container-fluid .title h2 {
@@ -237,20 +239,22 @@ header {
 
 #africa .container-fluid .title {
     width: 100%;
-    height: 20%;
+    max-height: 20%;
 }
 
 #africa .container-fluid .title h2 {
     margin-top: 70px;
+    margin-bottom: 120px;
 }
 
 #africa .cafrica {
-    width: 60%;
+    max-width: 60%;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 #africa .cafrica img {
-    height: 600px;
+    max-height: 600px;
 }
 
 /* OCEANIE */
@@ -286,10 +290,11 @@ header {
     padding: 15px;
     border-radius: 10px;
     display: flex;
-    width: 680px;
-    height: 400px;
+    max-width: 680px;
+    max-height: 400px;
     margin-bottom: 80px;
     box-shadow: 3px 3px 10px #262626;
+    overflow: hidden;
 }
 
 #oceania .cartes .round-card img {
@@ -298,6 +303,7 @@ header {
     border-radius: 50%;
     box-shadow: 3px 3px 10px #262626;
     margin-top: 50px;
+    overflow: hidden;
 }
 
 #oceania .cartes .round-card h3 {
@@ -342,7 +348,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    height: 90vh;
+    max-height: 90vh;
 }
 
 #south .container-fluid {
@@ -362,6 +368,7 @@ header {
     justify-content: center;
     justify-content: space-around;
     align-items: center;
+    overflow: hidden;
 }
 
 #south .sud img {
@@ -378,7 +385,7 @@ header {
 }
 
 #south .sud p {
-    width: 300px;
+    max-width: 300px;
     margin-top: -30px;
 }
 
@@ -387,7 +394,7 @@ header {
 
 footer .foot {
     width: 100%;
-    height: 10vh;
+    max-height: 10vh;
 }
 
 footer .foot .container-fluid .copyright {
@@ -407,11 +414,12 @@ footer .foot .container-fluid .copyright .copy {
 
 .contact {
     width: 100%;
-    height: 90vh;
+    max-height: 90vh;
     background-image: linear-gradient(rgba(255, 255, 255, 0.623),rgba(128, 128, 128, 0.658)) ,url(../img/worldmap.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
 }
 
 .contact h2 {
@@ -426,7 +434,7 @@ footer .foot .container-fluid .copyright .copy {
 }
 
 .contact form textarea {
-    height: 200px;
+    max-height: 200px;
     margin-bottom: 40px;
 }
 
@@ -443,8 +451,8 @@ footer .foot .container-fluid .copyright .copy {
 }
 
 .gallery img {
-    width: 350px;
-    height: 280px;
+    max-width: 350px;
+    max-height: 280px;
     border-radius: 5px;
     margin: 20px 0 40px 50px;
     object-fit: cover;
