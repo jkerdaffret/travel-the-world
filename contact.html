@@ -15,6 +15,8 @@
 </head>
 
 <body>
+
+  <!-- navbar -->
     
     <nav class="navbar navbar-expand-md bg-light navbar-light fixed-top">
 
@@ -51,9 +53,64 @@
       </nav>
 
 
+      <!-- Formulaire de contact -->
 
+      <div class="container-fluid contact">
 
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="text-primary">Partagez votre expérience</h2>
+          </div>
+        </div>
 
+        <form>
+          <div class="form-row">
+            <div class="col-md-4 mb-3">
+              <label for="validationServer01" class="text-primary">First name</label>
+              <input type="text" class="form-control" id="validationServer01" required>
+            </div>
+            <div class="col-md-4 mb-3">
+              <label for="validationServer02" class="text-primary">Last name</label>
+              <input type="text" class="form-control" id="validationServer02" required>
+            </div>
+            <div class="col-md-4 mb-3">
+              <label for="validationServerUsername" class="text-primary">Username</label>
+              <div class="input-group">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="inputGroupPrepend3">@</span>
+                </div>
+                <input type="text" class="form-control" id="validationServerUsername" aria-describedby="inputGroupPrepend3" required>
+              </div>
+            </div>
+          </div>
+          <div class="form-row">
+          <div class="col-md-12">
+            <label for="validationTextarea" class="text-primary">Textarea</label>
+            <textarea class="form-control" id="validationTextarea" placeholder="Please enter a message in the textarea." required></textarea>
+          </div>
+        </div>
+        <button class="btn btn-primary" type="submit">Submit</button>
+        </form>
+      </div>
+
+      <!-- footer -->
+
+      <footer>
+
+        <section class="bg-dark text-light foot">
+    
+          <div class="container-fluid">
+            <div class="row">
+              <div class="col-md-12 copyright">
+                <a href="#" class="navbar-brand logo">Travel The World</a>
+                <div>Copyright &copy; 2020. Tous droits reservés</div>
+              </div>
+            </div>
+          </div>
+    
+        </section>
+    
+      </footer>
 
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"

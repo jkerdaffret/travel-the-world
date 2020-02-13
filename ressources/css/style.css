@@ -55,6 +55,10 @@ section {
     height: 100vh;
 }
 
+img {
+    object-fit: cover;
+}
+
 
 /* HEADER */
 
@@ -236,12 +240,12 @@ header {
 }
 
 #africa .cafrica {
-    width: 75%;
+    width: 60%;
     margin: 0 auto;
 }
 
 #africa .cafrica img {
-    height: 550px;
+    height: 600px;
 }
 
 /* OCEANIE */
@@ -309,13 +313,27 @@ header {
 
 #north .container-fluid .card {
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.548);
+    margin-left: 75px;
+}
+
+#north button {
+    outline: none;
 }
 
 /* AMERIQUE DU SUD */
 
+#south {
+    background-image: url(../img/amazon.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+
 #south .container-fluid {
     width: 100%;
     height: 100vh;
+    background: rgba(255, 255, 255, 0.445);
 }
 
 #south .container-fluid h2 {
@@ -332,11 +350,11 @@ header {
 }
 
 #south .sud img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    border-radius: 40%;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.541);
-    margin-bottom: 80px;
+    margin-bottom: 60px;
 }
 
 #south .sud p {
@@ -346,8 +364,68 @@ header {
 
 /* FOOTER */
 
+footer .foot {
+    width: 100%;
+    height: 10vh;
+}
 
-/* Faire le footer sur les trois pages
+footer .foot .container-fluid .copyright {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* CONTACT */
+
+.contact {
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.623),rgba(128, 128, 128, 0.658)) ,url(../img/worldmap.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact h2 {
+    margin-top: 70px;
+}
+
+.contact form {
+    width: 65%;
+    margin: 120px auto;
+    color: white;
+    font-weight: 400;
+}
+
+.contact form textarea {
+    height: 300px;
+    margin-bottom: 80px;
+}
+
+
+/* GALLERY */
+
+.gallery {
+    background: rgba(208, 232, 240, 0.507);
+}
+
+.gallery h2 {
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+
+.gallery img {
+    width: 350px;
+    height: 280px;
+    border-radius: 5px;
+    margin: 20px 0 40px 50px;
+}
+
+
+
+
+/* 
 faire la galerie et la page contact au maximum avec la docs bootstrap
 personnaliser la nav bar, le logo, le drop down, mettre le lien actif en valeur 
 (genre contact en blanc/gras quand on est su rla page contact)
