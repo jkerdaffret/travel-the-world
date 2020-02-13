@@ -55,11 +55,6 @@ section {
     height: 100vh;
 }
 
-img {
-    object-fit: cover;
-}
-
-
 /* HEADER */
 
 header {
@@ -77,12 +72,14 @@ header {
 /* NAVBAR */
 
 
+
 /* EUROPE */
 
 #europ {
     background: linear-gradient(rgba(255, 0, 0, 0.521), rgba(128, 128, 128, 0.521));
     display: flex;
     align-items: center;
+    width: 100%;
 }
 
 #europ h2 {
@@ -133,21 +130,20 @@ header {
 #orient .container-fluid {
     width: 100%;
     height: 100vh;
-    background-color: rgba(229, 184, 145, 0.548);
-}
-
-#orient .container-fluid .desertroad {
-    width: 100%;
-    height: 40vh;
+    background-image: url(../img/desertdubai.jpg); /*rgba(229, 184, 145, 0.548), */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #orient .container-fluid .title {
     width: 100%;
-    height: 20vh;
 }
 
 #orient .container-fluid .title h2 {
     margin-top: 70px;
+    margin-bottom: 200px;
 }
 
 #orient .cartes {
@@ -163,9 +159,13 @@ header {
     margin-bottom: 80px;
 }
 
+#orient .cartes .round-card h3 {
+    margin-bottom: -20px;
+}
+
 #orient .cartes .round-card img {
-    width: 300px;
-    height: 300px;
+    width: 90%;
+    height: 80%;
     border-radius: 50%;
     box-shadow: 3px 3px 10px #262626;
 }
@@ -253,21 +253,21 @@ header {
 #oceania .container-fluid {
     width: 100%;
     height: 100vh;
-    background-color: rgba(111, 163, 168, 0.548);
+    background-image: url(../img/whiteheaven.jpg);       /*rgba(111, 163, 168, 0.548) */
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-#oceania .container-fluid .whiteheaven {
-    width: 100%;
-    height: 40vh;
-}
 
 #oceania .container-fluid .title {
     width: 100%;
-    height: 20vh;
 }
 
 #oceania .container-fluid .title h2 {
     margin-top: 70px;
+    margin-bottom: 200px;
 }
 
 #oceania .cartes {
@@ -288,6 +288,10 @@ header {
     height: 300px;
     border-radius: 50%;
     box-shadow: 3px 3px 10px #262626;
+}
+
+#oceania .cartes .round-card h3 {
+    margin-bottom: -20px;
 }
 
 #oceania .cartes .round-card p {
@@ -327,6 +331,7 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     height: 90vh;
 }
 
@@ -357,8 +362,14 @@ header {
     margin-bottom: 60px;
 }
 
+#south .sud h3 {
+    margin-bottom: 35px;
+    margin-top: -25px;
+}
+
 #south .sud p {
     width: 300px;
+    margin-top: -30px;
 }
 
 
@@ -375,6 +386,12 @@ footer .foot .container-fluid .copyright {
     justify-content: space-between;
     align-items: center;
 }
+
+footer .foot .container-fluid .copyright .copy {
+    font-size: 10px;
+    margin-top: 30px;
+    margin-left: -8px;
+} 
 
 /* CONTACT */
 
@@ -393,14 +410,14 @@ footer .foot .container-fluid .copyright {
 
 .contact form {
     width: 65%;
-    margin: 120px auto;
+    margin: 100px auto;
     color: white;
     font-weight: 400;
 }
 
 .contact form textarea {
-    height: 300px;
-    margin-bottom: 80px;
+    height: 200px;
+    margin-bottom: 40px;
 }
 
 
@@ -420,13 +437,5 @@ footer .foot .container-fluid .copyright {
     height: 280px;
     border-radius: 5px;
     margin: 20px 0 40px 50px;
+    object-fit: cover;
 }
-
-
-
-
-/* 
-faire la galerie et la page contact au maximum avec la docs bootstrap
-personnaliser la nav bar, le logo, le drop down, mettre le lien actif en valeur 
-(genre contact en blanc/gras quand on est su rla page contact)
-vérifier le responsive  */
