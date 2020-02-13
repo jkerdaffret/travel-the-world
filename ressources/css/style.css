@@ -414,7 +414,7 @@ footer .foot .container-fluid .copyright .copy {
 
 .contact {
     width: 100%;
-    max-height: 90vh;
+    height: 90vh;
     background-image: linear-gradient(rgba(255, 255, 255, 0.623),rgba(128, 128, 128, 0.658)) ,url(../img/worldmap.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -451,8 +451,8 @@ footer .foot .container-fluid .copyright .copy {
 }
 
 .gallery img {
-    max-width: 350px;
-    max-height: 280px;
+    width: 350px;
+    height: 280px;
     border-radius: 5px;
     margin: 20px 0 40px 50px;
     object-fit: cover;
