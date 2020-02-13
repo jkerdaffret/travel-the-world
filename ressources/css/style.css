@@ -129,7 +129,7 @@ header {
 
 #orient .container-fluid {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-image: url(../img/desertdubai.jpg); /*rgba(229, 184, 145, 0.548), */
     background-attachment: fixed;
     background-position: center;
@@ -153,10 +153,14 @@ header {
 }
 
 #orient .cartes .round-card {
+    background: rgba(255, 255, 255, 0.603);
+    padding: 15px;
+    border-radius: 10px;
     display: flex;
-    width: 80%;
-    height: 80%;
+    width: 680px;
+    height: 400px;
     margin-bottom: 80px;
+    box-shadow: 3px 3px 10px #262626;
 }
 
 #orient .cartes .round-card h3 {
@@ -164,15 +168,16 @@ header {
 }
 
 #orient .cartes .round-card img {
-    width: 90%;
-    height: 80%;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     box-shadow: 3px 3px 10px #262626;
+    margin-top: 50px;
 }
 
 #orient .cartes .round-card p {
     padding-top: 50px;
-    margin-left: 15px;
+    margin-left: 0;
 }
 
 
@@ -184,12 +189,12 @@ header {
 
 #asia .container-fluid {
     width: 100%;
-    height: 100vh;
+    height: 100%;
 }
 
 #asia .container-fluid .title {
     width: 100%;
-    height: 20vh;
+    height: 20%;
 }
 
 #asia .container-fluid .title h2 {
@@ -198,7 +203,7 @@ header {
 
 #asia .container-fluid .asie {
     width: 100%;
-    height: 80vh;
+    height: 80%;
 }
 
 #asia .container-fluid .cino img {
@@ -227,12 +232,12 @@ header {
 
 #africa .container-fluid {
     width: 100%;
-    height: 100vh;
+    height: 100%;
 }
 
 #africa .container-fluid .title {
     width: 100%;
-    height: 20vh;
+    height: 20%;
 }
 
 #africa .container-fluid .title h2 {
@@ -252,7 +257,7 @@ header {
 
 #oceania .container-fluid {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-image: url(../img/whiteheaven.jpg);       /*rgba(111, 163, 168, 0.548) */
     background-attachment: fixed;
     background-position: center;
@@ -277,17 +282,22 @@ header {
 }
 
 #oceania .cartes .round-card {
+    background: rgba(255, 255, 255, 0.603);
+    padding: 15px;
+    border-radius: 10px;
     display: flex;
-    width: 80%;
-    height: 80%;
+    width: 680px;
+    height: 400px;
     margin-bottom: 80px;
+    box-shadow: 3px 3px 10px #262626;
 }
 
 #oceania .cartes .round-card img {
-    width: 300px;
-    height: 300px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     box-shadow: 3px 3px 10px #262626;
+    margin-top: 50px;
 }
 
 #oceania .cartes .round-card h3 {
@@ -302,12 +312,12 @@ header {
 /* AMERIQUE DU NORD */
 
 #north {
-    background: linear-gradient(to right, rgba(17, 17, 167, 0.534), rgba(63, 61, 61, 0.438));
+    background: linear-gradient(rgba(12, 12, 87, 0.466), rgba(63, 61, 61, 0.438));
 }
 
 #north .container-fluid {
     width: 100%;
-    height: 100vh;
+    height: 100%;
 }
 
 #north .container-fluid h2 {
@@ -337,7 +347,7 @@ header {
 
 #south .container-fluid {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background: rgba(255, 255, 255, 0.445);
 }
 

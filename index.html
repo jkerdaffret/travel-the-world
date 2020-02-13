@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,700&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
 
@@ -36,9 +37,9 @@
 
 
         <div class="collapse navbar-collapse" id="monMenu">
-          <div class="navbar-nav ml-auto">
-            <a href="#home" class="nav-item nav-link active">Accueil</a>
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active"><a href="#home" class="nav-link">Accueil</a></li>
+            <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">Zones Géographiques</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="#europ">Europe</a>
@@ -48,11 +49,11 @@
               <a class="dropdown-item" href="#oceania">Oceanie</a>
               <a class="dropdown-item" href="#north">Amérique du Nord</a>
               <a class="dropdown-item" href="#south">Amérique du Sud</a>
-            </div>
-            <a href="galerie.html" class="nav-item nav-link">Galerie</a>
-            <a href="contact.html" class="nav-item nav-link">Partager</a>
+            </div></li>
+            <li class="nav-item"><a href="galerie.html" class="nav-link">Galerie</a></li>
+            <li class="nav-item"><a href="contact.html" class="nav-item nav-link">Partager</a></li>
 
-          </div>
+          </ul>
         </div>
       </div>
     </nav>
@@ -207,9 +208,9 @@
       </div>
 
       <div class="row">
-        <div class="col-md-6 cartes">
-          <div class="round-card row"><div class="col-md-6"><img class="img-fluid" src="./ressources/img/oman.jpg" alt=""></div>
-            <div class="col-md-6"><h3>Oman</h3>
+        <div class="col-lg-6 cartes">
+          <div class="round-card row"><div class="col-lg-6"><img class="img-fluid" src="./ressources/img/oman.jpg" alt=""></div>
+            <div class="col-lg-6"><h3>Oman</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Modi possimus soluta quis libero velit maxime iure numquam sit. Blanditiis adipisci cumque tempore earum
               autem accusantium
@@ -219,10 +220,9 @@
         </div>
 
 
-
-        <div class="col-md-6 cartes">
-          <div class="round-card row"><div class="col-md-6"><img class="img-fluid" src="./ressources/img/dubai.jpg" alt=""></div>
-            <div class="col-md-6"><h3>Emirats Arabes Unis</h3>
+        <div class="col-lg-6 cartes">
+          <div class="round-card row"><div class="col-lg-6"><img class="img-fluid" src="./ressources/img/dubai.jpg" alt=""></div>
+            <div class="col-lg-6"><h3>Emirats Arabes Unis</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Modi possimus soluta quis libero velit maxime iure numquam sit. Blanditiis adipisci cumque tempore earum
               autem accusantium
@@ -439,7 +439,7 @@
           <div class="modal-content">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15007953.02441103!2d-111.64708103445543!3d23.31390717778247!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x84043a3b88685353%3A0xed64b4be6b099811!2sMexique!5e0!3m2!1sfr!2sfr!4v1581538302172!5m2!1sfr!2sfr"
-              width="498" height="250" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+              max-width="498" height="250" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
@@ -452,7 +452,7 @@
           <div class="modal-content">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41244228.68741395!2d-130.13272721273657!3d50.880270283224036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4b0d03d337cc6ad9%3A0x9968b72aa2438fa5!2sCanada!5e0!3m2!1sfr!2sfr!4v1581538263278!5m2!1sfr!2sfr"
-              width="498" height="250" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+              max-width="498" height="250" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
@@ -465,7 +465,7 @@
           <div class="modal-content">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7604390.612792037!2d-84.05875560521235!3d21.465324293096497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88cd49070f7a4cb5%3A0x798cf7529110a41a!2sCuba!5e0!3m2!1sfr!2sfr!4v1581538335791!5m2!1sfr!2sfr"
-              width="498" height="250" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+              max-width="498" height="250" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
@@ -537,6 +537,8 @@
   </footer>
 
 
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
   </script>
